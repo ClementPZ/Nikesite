@@ -19,6 +19,24 @@
   width: 80px;
 }
 @media (max-width: 1230px) {
+  #logo {
+    width: 40px;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar-toggle-menu {
+    display: block;
+  }
+  .navbar-toggle-menu img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  #logo {
+    width: 40px;
+  }
   .navbar ul {
     display: none;
   }
