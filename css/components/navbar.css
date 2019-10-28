@@ -6,6 +6,9 @@
   border-bottom: 1px solid lightgrey;
   color: black;
 }
+.navbar-toggle-menu {
+  display: none;
+}
 .navbar input {
   padding: 3px;
 }
@@ -14,4 +17,15 @@
 }
 #logo {
   width: 80px;
+}
+@media (max-width: 1230px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar-toggle-menu {
+    display: block;
+  }
+  .navbar-toggle-menu img {
+    width: 40px;
+  }
 }
