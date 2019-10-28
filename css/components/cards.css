@@ -1,10 +1,16 @@
 .cards {
-  margin-top: 4px;
   display: flex;
   flex-wrap: wrap;
 }
+.card-full {
+  flex:1 1 100%;
+}
+.card-half {
+  flex: 1 0 45%;
+}
 .card {
   padding: 20px;
+  margin: 8px;
   height: 440px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,15 +27,20 @@
   display: flex;
   justify-content: space-between;
 }
-.card-full {
-  flex-basis: 100%;
-}
-.card-half {
-  flex-basis: 49%;
-}
 
-@media (max-width: 800px) {
+@media (max-width: 1230px) {
   .card-half {
-    flex-basis: 100%;
+    flex:1 1 100%;
+  }
+  .container {
+    width: auto;
+    margin: 0 8px;
   }
 }
+@media (max-width: 1230px) {
+  .container {
+    width: auto;
+    margin: 0 4px;
+  }
+}
+
