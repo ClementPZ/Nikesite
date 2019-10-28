@@ -1,0 +1,35 @@
+.cards {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 20px;
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card h2 {
+  margin-bottom: 16px;
+}
+.card-btn-box {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-full {
+  flex-basis: 100%;
+}
+.card-half {
+  flex-basis: 49%;
+}
+
+@media (max-width: 800px) {
+  .card-half {
+    flex-basis: 100%;
+  }
+}
