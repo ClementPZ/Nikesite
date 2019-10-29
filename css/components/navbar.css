@@ -40,9 +40,9 @@
   .navbar ul {
     display: none;
   }
-  .navbar-toggle-menu {
+/*  .navbar-toggle-menu {
     display: block;
-  }
+  }*/
   .navbar-toggle-menu img {
     width: 40px;
   }
