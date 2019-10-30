@@ -13,7 +13,15 @@
   flex-wrap: nowrap;
 }
 .card-10 {
-  flex: 1 1 5%;
+  flex: 1 1 10%;
+  margin: 8px;
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card {
   padding: 20px;
@@ -42,6 +50,12 @@
   .card {
     margin: 4px;
   }
+  .flex10 {
+    margin: 0 0px;
+  }
+  .card-10 {
+    flex: 1 1 10%;
+    margin: 4px;
 }
 @media (max-width: 500px) {
   .card-full {
